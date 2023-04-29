@@ -6,3 +6,11 @@ body {
 .projects {
     text-align: center;
 }
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
