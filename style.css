@@ -3,14 +3,17 @@ body {
     font-family: 'Gowun Dodum', sans-serif;
 }
 
-.projects {
-    text-align: center;
-}
-
 .header {
     text-align: center;
+    border: solid;
+    padding: 3%;
+    background-color: #2ECC71;
 }
 
 .header h1 {
     font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.projects {
+    text-align: center;
 }
