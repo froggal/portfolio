@@ -20,3 +20,10 @@ body {
     border: solid;
     padding: 5%;
 }
+
+.footer {
+    background-color: #5DADE2;
+    text-align: center;
+    border: solid;
+    padding: 2%;
+}
