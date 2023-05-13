@@ -3,6 +3,14 @@ body {
     font-family: 'Gowun Dodum', sans-serif;
 }
 
+h1 {
+    font-weight: bolder;
+}
+
+h2 {
+    font-weight: bold;
+}
+
 .header {
     text-align: center;
     border: solid;
@@ -18,7 +26,13 @@ body {
     background-color: #FFC300;
     text-align: center;
     border: solid;
-    padding: 5%;
+    padding: 3%;
+}
+
+.ican {
+    text-align: center;
+    border: solid;
+    padding: 2%;
 }
 
 .footer {
