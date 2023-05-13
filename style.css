@@ -36,6 +36,10 @@ h2 {
     padding: 2%;
 }
 
+.ican p {
+    font-size: 150%;
+}
+
 .footer {
     background-color: #5DADE2;
     text-align: center;
