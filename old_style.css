@@ -15,6 +15,9 @@ h2 {
 
 .header {
     text-align: center;
+    border: solid;
+    padding: 3%;
+    background-color: #2ECC71;
 }
 
 .header h1 {
@@ -27,4 +30,29 @@ h2 {
 .header-visible h1 {
     opacity: 1;
     transform: translateY(0);
+  }
+
+.projects {
+    background-color: #FFC300;
+    text-align: center;
+    border: solid;
+    padding: 3%;
+}
+
+.ican {
+    background-color: #FF881E;
+    text-align: center;
+    border: solid;
+    padding: 2%;
+}
+
+.ican p {
+    font-size: 150%;
+}
+
+.footer {
+    background-color: #5DADE2;
+    text-align: center;
+    border: solid;
+    padding: 2%;
 }
