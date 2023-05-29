@@ -1,6 +1,8 @@
 @import url(fonts.css);
 body {
     font-family: 'Gowun Dodum', sans-serif;
+    height: 1000px;
+    overflow: scroll;
 }
 
 h1 {
@@ -20,7 +22,15 @@ h2 {
 
 .header h1 {
     font-family: 'Nanum Gothic Coding', monospace;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s, transform 0.5s;
 }
+
+.header-visible h1 {
+    opacity: 1;
+    transform: translateY(0);
+  }
 
 .projects {
     background-color: #FFC300;
