@@ -5,7 +5,7 @@ function revealText() {
   var position = header.getBoundingClientRect().top;
   var windowHeight = window.innerHeight;
 
-  if (position < windowHeight / 1.5) {
+  if (position < windowHeight / 5) {
     header.classList.add("header-visible");
   } else {
     header.classList.remove("header-visible");
