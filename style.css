@@ -30,3 +30,8 @@ h2 {
     opacity: 1;
     transform: translateY(0);
 }
+
+.footer {
+    text-align: center;
+    margin-top: 20%;
+}
