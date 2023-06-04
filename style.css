@@ -15,18 +15,18 @@ h2 {
 
 .header {
     text-align: center;
+    opacity: 0;
+    transform: translateY(70px);
+    transition: opacity 0.5s, transform 0.5s;
+    margin-top: 10%;
 }
 
 .header h1 {
     font-family: 'Nanum Gothic Coding', monospace;
-    opacity: 0;
-    transform: translateY(70px);
-    transition: opacity 0.5s, transform 0.5s;
     font-size: 1000%;
-    margin-top: 10%;
 }
 
-.header-visible h1 {
+.header-visible {
     opacity: 1;
     transform: translateY(0);
 }
